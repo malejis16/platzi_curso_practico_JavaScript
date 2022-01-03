@@ -1,0 +1,7 @@
+//cuadrado
+
+// rectangulo
+
+//triangulo
+
+// circulo
