@@ -17,3 +17,5 @@ diametro: 2*r
 perimetro: 2(pi)*r
 area: r*r*pi 
 */
+
+console.log("Entro al cálculo");
