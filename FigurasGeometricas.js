@@ -20,7 +20,8 @@ area: r*r*pi
 
 console.group("Cuadrados");
 
-var lado = 6;
+var lado = 7;
+
 function perimetroCuadrado(lado) {
   return lado * 4;
 }
@@ -80,3 +81,30 @@ console.log(
 );
 
 console.groupEnd;
+
+function calcularPerimetroCuadrado() {
+  var inputLado = document.getElementById("inputLadoCuadrado");
+  var lado = inputLado.value;
+  alert(perimetroCuadrado(lado));
+}
+
+function calcularAreaCuadrado() {
+  var inputLado = document.getElementById("inputLadoCuadrado");
+  var lado = inputLado.value;
+  alert(areaCuadrado(lado));
+}
+
+function calcularAreaTriangulo() {
+  var inputLado1 = document.getElementById("inputLado1Triangulo");
+  var lado1 = inputLado1.value;
+  var inputLado2 = document.getElementById("inputLado2Triangulo");
+  var lado2 = inputLado2.value;
+  var inputBase = document.getElementById("inputBaseTriangulo");
+  var base = inputBase.value;
+  var inputAltura = document.getElementById("inputAlturaTriangulo");
+  var altura = inputAltura.value;
+  var inputRadio = document.getElementById("inputRadioCirculo");
+  var radio = inputRadio.value;
+
+  alert(areaTriangulo(base, altura));
+}
