@@ -6,11 +6,12 @@ area del cuadrado: L al cuadrado
 
 //Perimetro
 
-var lado = 6;
+/*var lado = 6;
 function perimetro(lado) {
   return lado * 4;
 }
-console.log(var n = perimetro(lado));
+console.log(perimetro(lado));*/
+console.log("Hola");
 
 /*
 TRIANGULO
