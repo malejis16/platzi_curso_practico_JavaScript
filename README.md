@@ -25,3 +25,10 @@ radio: r
 diametro: 2*r
 perimetro: 2(pi)*r
 area: r*r*pi
+
+## Taller #2: porcentajes y descuentos
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar la fórmulas en JavaScript
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML
